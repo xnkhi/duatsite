@@ -28,8 +28,8 @@ export default defineConfig({
 				{
 					label: 'Install',
 					items: [
-						{ label: 'The Hijack Method', link: '/install/The-Hijack-Method/' },
-						{ label: 'Live ISO', link: '/install/Live-ISO/' },
+						{ label: 'The Hijack Method', link: '/install/the-hijack-method/' },
+						{ label: 'Live ISO', link: '/install/live-iso/' },
 					],
 				},
 			],
