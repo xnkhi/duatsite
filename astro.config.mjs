@@ -23,6 +23,8 @@ export default defineConfig({
 					items: [
 						// Each item here is one entry in the navigation menu.
 						{ label: 'About mizOS', link: '/overview/about/' },
+						{ label: 'User Interface', link: '/overview/interface/' },
+						{ label: 'The Package Manager', link: '/overview/package-manager/' },
 					],
 				},
 				{
