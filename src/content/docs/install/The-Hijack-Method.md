@@ -1,6 +1,6 @@
 ---
-title: Example Reference
-description: A reference page in my new Starlight docs site.
+title: The Hijack Method
+description: Guide for installing mizOS using the Hijack method
 ---
 
 Reference pages are ideal for outlining how things work in terse and clear terms.

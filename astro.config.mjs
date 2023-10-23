@@ -19,15 +19,18 @@ export default defineConfig({
 			},
 			sidebar: [
 				{
-					label: 'Guides',
+					label: 'Overview',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', link: '/guides/example/' },
+						{ label: 'About mizOS', link: '/overview/about/' },
 					],
 				},
 				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
+					label: 'Install',
+					items: [
+						{ label: 'The Hijack Method', link: '/install/The-Hijack-Method/' },
+						{ label: 'Live ISO', link: '/install/Live-ISO/' },
+					],
 				},
 			],
 		}),
