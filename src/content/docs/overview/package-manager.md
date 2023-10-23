@@ -1,62 +1,29 @@
 ---
-title: About mizOS
-description: What is mizOS?
+title: The Package Manager
+description: How the mizOS package manager works.
 ---
 
-Welcome to the Duat, the home of the miz Operating System. mizOS, short for miz Operating System, is a free and open-source linux-based operating system that's designed with the user in mind. Today's fast operating systems are often complex to use, and the easy ones are much too slow for efficient computing. mizOS solves this issue by utilizing the software of a fast system under the hood, while giving you a carefully crafted tool to easily manage that software. This tool is called `miz`, and as you guessed, is the heart of mizOS.
+mizOS is equipped with a powerful package manager that makes it easy for users to install and manage software packages. Unlike traditional package managers that rely on centralized repositories, mizOS's package manager is GitHub-centric. This means that each package is stored on its own individual GitHub repository, and anyone can create a GitHub repository that follows the mizOS packaging format and publish a package that is installable by anyone else within seconds. This package manager works alongside `pacman` and the AUR to guarantee the widest possible software selection for our users.
 
-mizOS is built on the foundation of Arch Linux, a robust rolling-release Linux distribution that ensures access to the latest software, applications, and security features. Whether you're a software developer, a gamer, or simply seeking a new and customizable system, mizOS is here to cater to your needs.
-
-
-## Benefits
-
-mizOS brings forth a multitude of benefits for its users:
-
-- **User-Friendly Experience:** mizOS is designed with the user in mind, providing a seamless and intuitive interface to enhance the user experience.
-
-- **Performance and Resource Efficiency:** Despite its user-friendliness, mizOS doesn't compromise on performance or system resource management, ensuring a smooth and efficient operation.
-
-- **Centralization:** Everything you need is readily accessible in one place, streamlining your software and application management.
-
-- **Customization:** Users have complete control over their system, enabling them to personalize it according to their specific requirements.
-
-- **Open Source:** mizOS is entirely free and open source, allowing users to modify, distribute, and use the operating system without restrictions or fees.
-
-- **Uniformity:** Commands in mizOS are generally uniform. For example, init-management commands between different init systems, such as Runit and systemd, are the same. 
+Using the `githubAccountName/repoName syntax`, mizOS's package manager can quickly locate the package on GitHub and install or remove it as needed. `githubAccountName` refers to the username of the GitHub account who owns the repository where the package is located, and `repoName` refers to the name of said repository. For example, to install a package named "my-great-package" created by a developer named "JaneSmith", users would use the command `miz fetch JaneSmith/my-great-package`. Package names are not case sensitive.
 
 
-## Why Arch?
+## Why this Approach?
 
-mizOS is built on the foundation of Arch Linux for several compelling reasons:
+This approach has several advantages. Firstly, it makes it incredibly easy for developers to create and publish packages. All they need to do is create a GitHub repository that follows the mizOS packaging format, and their package will be immediately available to all mizOS users. This means that anyone can contribute to the ecosystem and publish their own software packages, making mizOS a truly community-driven operating system.
 
-- **Latest Software:** Arch Linux is a rolling-release distribution, ensuring users have access to the most up-to-date software, tools, and security features.
-
-- **Complete Control:** mizOS provides users with the ultimate level of control over their system, thanks to Arch Linux's customizable nature.
-
-- **Stability and Reliability:** Arch Linux is known for its stability and reliability, making it a strong base for mizOS.
-
-- **Ease of Development:** Arch Linux by nature is a build-it-yourself Linux distribution, making it the perfect candidate for a mizOS base.
-
-- **Support and Community:** The Arch Linux community offers robust support and a wealth of resources to enhance the mizOS experience.
+Secondly, the GitHub-centric approach ensures that packages are always up-to-date, as developers can push updates to their repositories at any time. Additionally, because each package is stored on its own repository, users can easily inspect the source code and contribute to the package if they wish.
 
 
-## Our Philosophy
+## Security
 
-At the Duat, we firmly believe in a strict set of principles:
+To ensure the security of your system, mizOS blocks the installation of packages not listed on the Duat. If you want to be able to install packages from any Github reposirory in existence, you must change your security type.
 
-- **Free and Open-Source:** We adhere to the principles of free and open-source software, making mizOS free and accessible to everyone.
+Security types:
+- `strict` - Can only install packages from the Duat's official package list.
+- `moderate` - Can only install packages from the Duat's official package list and the Duat's community package list.
+- `none` - Can install any mizOS package uploaded to Github.
 
-- **User-Centric Design:** Our focus is on the user, striving to create an operating system that caters to their needs and preferences.
+To change your security type with the miz frontend, the command is `miz config pkgsec <security type>`. By default, the security type is set to strict
 
-- **Transparency:** We maintain transparency by providing comprehensive documentation, guides, and a library of official and community-made packages.
-
-- **No Compromises:** We strive to create an operating system that provides a simple experience without compromising on speed.
-
-- **Community Engagement:** We encourage active engagement through our Discord server, offering support forums, news updates, sneak peeks, and more.
-
-
-## In Final
-
-mizOS is your gateway to a user-friendly, efficient, and customizable operating system. Built on the strong foundation of Arch Linux, mizOS ensures you have the latest software, complete control over your system, and the support of a vibrant community. Our commitment to free and open-source principles, design philosophy, transparency, and community engagement sets mizOS apart. Join us at the Duat to explore a world of possibilities and discover the power of mizOS for yourself.
-
-*Psst! If you want to come chat, come join our [Discord server](https://discord.gg/AVSuRZsTXp)!*
+If you would like to create a package, or add a package to the Duat, see this guide.
