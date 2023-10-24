@@ -39,6 +39,7 @@ export default defineConfig({
 					items: [
 						{ label: 'The Basics', link: '/miz/basics/' },
 						{ label: 'System Info', link: '/miz/displayinfo/' },
+						{ label: 'System Configuration', link: '/miz/configuration/' },
 					],
 				},
 			],
