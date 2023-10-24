@@ -28,10 +28,17 @@ export default defineConfig({
 					],
 				},
 				{
-					label: 'Install',
+					label: 'Installing mizOS',
 					items: [
 						{ label: 'The Hijack Method', link: '/install/the-hijack-method/' },
 						{ label: 'Live ISO', link: '/install/live-iso/' },
+					],
+				},
+				{
+					label: 'miz Frontend',
+					items: [
+						{ label: 'The Basics', link: '/miz/basics/' },
+						{ label: 'System Info', link: '/miz/displayinfo/' },
 					],
 				},
 			],
