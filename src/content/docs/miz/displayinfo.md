@@ -3,7 +3,7 @@ title: Displaying System Information
 description: How to display system information with the miz frontend.
 ---
 
-The miz frontend allows you to easily view information about your system, such as your current settings, packages installed, or mizOS packages available in the Duat's package repository.
+The `miz` frontend allows you to easily view information about your system, such as your current settings, packages installed, or mizOS packages available in the Duat's package repository.
 
 
 ## Commands

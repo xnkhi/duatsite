@@ -65,7 +65,7 @@ mizOS provides a way to easily backup and restore your system configurations.
 
 **Warning: Backing up a configuration will remove previous backups of that configuration. Similarly, restoring a backed up configuration will remove your currently active configuration. mizOS backups are located at `/var/mizOS/backup/$USER`**
 
-**As an added note, all currently active configurations will be automatically backed up during a system update.**
+*As an added note, all currently active configurations will be automatically backed up during a system update.*
 
 - `miz backup <program_name>` - Back up the current configurations for program\_name.
 

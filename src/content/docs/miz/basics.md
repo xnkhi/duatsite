@@ -27,5 +27,3 @@ Being the official frontend, `miz` is the most up-to-date frontend available. It
 - Performing system updates.
 
 - And more!
-
-- 
