@@ -31,13 +31,27 @@ The top bar contains the workspace switcher on the left, and the system tray on 
 - `Mod + Shift + (Arrow Keys)` - Move selected window.
 - `Mod + h` - Horizontal split.
 - `Mod + v` - Vertical split.
-
+- `Mod + (Number Key)` - Switch workspace.
+- `Mod + Shift + (Number Key)` - Move selected window to workspace.
 
 ### Window Behavior
+- `Mod + Shift + Space` - Toggle window state between tiled and floating.
+- `Mod + Space` - Toggle focus between tiled and floating.
+- `Mod + R` - Enter resize mode for selected window.
+- `Mod + Shift + Q` - Close selected window.
 
 ### Programs
+- `Mod + Enter` - Open terminal.
+- `Mod + D` - Open application search menu.
+- `Mod + Shift + M` - Enable Picom.
+- `Mod + Shift + N` - Disable Picom.
+- `Mod + Shift + A` - Screenshot.
 
 ### Misc
+- `Mod + Shift + E` - Logout.
+- `Mod + Shift + C` - Reload config.
+
+
 ## Keyboard Shortcuts (Detailed)
 
 *By default, mizOS uses "Mod4" as the default "Mod" key. Mod4 refers to the [Windows key](https://cdsmythe.com/wp-content/uploads/2019/07/Insert-Windows-Key-Symbol.jpg).*
@@ -76,7 +90,7 @@ The top bar contains the workspace switcher on the left, and the system tray on 
 
 - Pressing `D` while `Mod` is held down will show an application search menu over your top bar.
 
-- `Mod + Shift + M` Opens Picom. This will remove screen tearing, and will also add blur and transparency effects to the user interface. This can be disabled with `Mod + Shift + N`.
+- `Mod + Shift + M` Enables Picom. This will remove screen tearing, and will also add blur and transparency effects to the user interface. This can be disabled with `Mod + Shift + N`.
 
 - You can take a screenshot with `Mod + Shift + A`. The image will be saved to your clipbord.
 
