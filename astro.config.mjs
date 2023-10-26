@@ -46,7 +46,14 @@ export default defineConfig({
 						{ label: 'System Updates', link: '/miz/updates/' },
 					],
 				},
+				{
+					label: 'Package Repo',
+					items: [
+						{ label: 'Official', link: '/repo/official/' },
+					],
+				},
 			],
+
 		}),
 	],
 });
