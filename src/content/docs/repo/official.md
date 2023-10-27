@@ -16,13 +16,14 @@ You can use the search bar located at the top of this website to search for pack
 
 ## System Utilities
 
+
 | **the-duat/mizos-asusctl** |
 | --- | --- |
 | **License** | [GPL V3](https://www.gnu.org/licenses/gpl-3.0.en.html) |
 | **Program Maintainer** | [Asus Linux](https://gitlab.com/asus-linux) |
 | **Package Maintainer** | [Mizosu](https://github.com/mizosu97) |
 | **Source code** | [Gitlab](https://gitlab.com/asus-linux/asusctl) |
-| **Description** | Linux utility to control various aspects of Asus laptops. Required for some mizOS features.|
+| **Description** | Linux utility to control various aspects of Asus laptops. Required for some mizOS features. |
 
 
 
