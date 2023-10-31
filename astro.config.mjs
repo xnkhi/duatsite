@@ -14,8 +14,10 @@ export default defineConfig({
 			logo: {
 				src: './src/assets/eye.png',
 			},
+			favicon: '/eye.png',
 			social: {
 				github: 'https://github.com/the-duat/mizos',
+				discord: 'https://discord.gg/AVSuRZsTXp',
 			},
 			sidebar: [
 				{

@@ -3,6 +3,8 @@ title: About mizOS
 description: What is mizOS?
 ---
 
+**mizOS is currently still in development. It is usable, but may contain bugs.**
+
 Welcome to the Duat, the home of the miz Operating System. mizOS, short for miz Operating System, is a free and open-source linux-based operating system that's designed with the user in mind. Today's fast operating systems are often complex to use, and the easy ones are much too slow for efficient computing. mizOS solves this issue by utilizing the software of a fast system under the hood, while giving you a carefully crafted tool to easily manage that software. This tool is called `miz`, and as you guessed, is the heart of mizOS.
 
 mizOS is built on the foundation of Arch Linux, a robust rolling-release Linux distribution that ensures access to the latest software, applications, and security features. Whether you're a software developer, a gamer, or simply seeking a new and customizable system, mizOS is here to cater to your needs.

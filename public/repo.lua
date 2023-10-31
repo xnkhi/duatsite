@@ -1,4 +1,5 @@
 -- mizOS package repository
+-- If you see a package in here that isn't listed on the website, it is most likely either broken or still in development. Don't try to install them if you don't know what you're doing.
 
 packages = {
 	["official"] = {
