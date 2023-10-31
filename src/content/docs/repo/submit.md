@@ -37,14 +37,14 @@ Failure to comply with any of these 6 terms will restrict your package from bein
 
 ## Step 2 - Submission
 
-Package submissions are done through the Discord server. Please include the following information in your submission:
+Package submissions are done through the [Discord server](https://discord.gg/AVSuRZsTXp). Please include the following information in your submission:
 
 - Name of the package. (user/repo)
 - Name of the installed software.
 - The installed software's license.
 - A link to the package's Github repository.
 - A link to the installed software's source code. (git repository)
-- A personal identification link to the software's main developer.
+- A personal identification link to the software's main developer.7
 - A personal identification link to the package's main maintainer.
 - A short description of the installed software. (25 words max)
 

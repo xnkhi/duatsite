@@ -50,6 +50,8 @@ export default defineConfig({
 					label: 'Package Repo',
 					items: [
 						{ label: 'Official', link: '/repo/official/' },
+						{ label: 'Community', link: '/repo/community/' },
+						{ label: 'Submitting a Package', link: '/repo/submit/' }
 					],
 				},
 			],

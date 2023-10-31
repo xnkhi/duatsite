@@ -16,45 +16,29 @@ You can use the search bar located at the top of this website to search for pack
 
 ## System Utilities
 
-
-| **the-duat/mizos-asusctl** |
-| --- |
-| **License** | 
-| [Mozilla Public License 2.0](https://gitlab.com/asus-linux/asusctl/-/blob/main/LICENSE) |
-| **Program Maintainer** | 
-| [Asus Linux](https://gitlab.com/asus-linux) |
-| **Package Maintainer** | 
-| [Mizosu](https://github.com/mizosu97) |
-| **Source code** | 
-| [Gitlab](https://gitlab.com/asus-linux/asusctl) |
-| **Description** | 
-| Linux utility to control various aspects of Asus laptops. Required for some mizOS features. |
-
-| **the-duat/mizos-supergfxctl** |
-| --- |
-| **License** | 
-| [Mozilla Public License 2.0](https://gitlab.com/asus-linux/supergfxctl/-/blob/main/LICENSE) |
-| **Program Maintainer** | 
-| [Asus Linux](https://gitlab.com/asus-linux) |
-| **Package Maintainer** | 
-| [Mizosu](https://github.com/mizosu97) |
-| **Source code** | 
-| [Gitlab](https://gitlab.com/asus-linux/supergfxctl) |
-| **Description** | 
-| Linux utility to control various aspects of Asus laptops. Required for some mizOS features. |
-
+There are currently no packages for this section. [Be the first to add one!](https://the-duat.github.io/repo/submit/)
 
 
 ## Development
 
+There are currently no packages for this section. [Be the first to add one!](https://the-duat.github.io/repo/submit/)
+
 
 ## Media
+
+There are currently no packages for this section. [Be the first to add one!](https://the-duat.github.io/repo/submit/)
 
 
 ## Internet
 
+There are currently no packages for this section. [Be the first to add one!](https://the-duat.github.io/repo/submit/)
+
 
 ## Games
 
+There are currently no packages for this section. [Be the first to add one!](https://the-duat.github.io/repo/submit/)
+
 
 ## Misc
+
+There are currently no packages for this section. [Be the first to add one!](https://the-duat.github.io/repo/submit/)
