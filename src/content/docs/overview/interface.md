@@ -1,14 +1,14 @@
 ---
 title: User Interface
-description: How do I use the mizOS user interface?
+description: How do I use the user interface?
 ---
 
-By default, mizOS comes with i3 - an extremely fast/lightweight user interface. mizOS is tightly integrated into i3, giving it abilities never before seen in any other Linux distribution.
+The Nile Integrated Linux Environmrnt ships with **i3** - an extremely fast/lightweight user interface. The NILE is tightly integrated into i3, allowing the User to interact with it in ways never seen before.
 
-Rather than being a "point and click" user interface, i3 is keyboard-oriented, meaning you mainly navigate it by using a set of keyboard shortcuts. This may seem a bit hard to learn at first, but it's not that difficult once you start using it.
+Rather than being a "point and click" user interface, i3 is keyboard-oriented, meaning you mainly navigate it by using a set of keyboard shortcuts.
 
 
-In mizOS, i3 uses "Mod4" as the default `Mod` key. Mod4 refers to the [Windows key](https://cdsmythe.com/wp-content/uploads/2019/07/Insert-Windows-Key-Symbol.jpg).
+The NILE's i3 uses "Mod4" as the default `Mod` key. Mod4 refers to the [Windows key](https://cdsmythe.com/wp-content/uploads/2019/07/Insert-Windows-Key-Symbol.jpg).
 
 For a quick navigation reference card, click [here](https://i3wm.org/docs/refcard.html).
 
@@ -17,7 +17,7 @@ For an in-depth explanation on how to navigate the user interface, follow the gu
 
 ## The Basics
 
-The mizOS user interface, or i3, consists of 2 main parts. The desktop, and the top bar.
+i3 consists of 2 main parts. The desktop, and the top bar.
 
 The desktop consists of your wallpaper, and is where application windows are displayed.
 
@@ -53,9 +53,6 @@ The top bar contains the workspace switcher on the left, and the system tray on 
 
 
 ## Keyboard Shortcuts (Detailed)
-
-*By default, mizOS uses "Mod4" as the default "Mod" key. Mod4 refers to the [Windows key](https://cdsmythe.com/wp-content/uploads/2019/07/Insert-Windows-Key-Symbol.jpg).*
-
 
 ### Navigation
 
