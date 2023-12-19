@@ -4,6 +4,7 @@ description: What is mizOS?
 ---
 
 **The NILE is currently still in development. It is usable, but may contain bugs.**
+**This site, and the system itself, are currently in the process of going through a rebrand. Expect inconsistencies.**
 
 
 This is the Duat, the home and birthplace of the Nile Integrated Linux Environment (N.I.L.E.)
