@@ -24,20 +24,20 @@ export default defineConfig({
 					label: 'Overview',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'About mizOS', link: '/overview/about/' },
+						{ label: 'About the NILE', link: '/overview/about/' },
 						{ label: 'User Interface', link: '/overview/interface/' },
 						{ label: 'The Package Manager', link: '/overview/package-manager/' },
 					],
 				},
 				{
-					label: 'Installing mizOS',
+					label: 'Installing the NILE',
 					items: [
 						{ label: 'The Hijack Method', link: '/install/the-hijack-method/' },
 						{ label: 'Live ISO', link: '/install/live-iso/' },
 					],
 				},
 				{
-					label: 'miz Frontend',
+					label: 'River Frontend',
 					items: [
 						{ label: 'The Basics', link: '/miz/basics/' },
 						{ label: 'System Info', link: '/miz/displayinfo/' },
@@ -49,7 +49,7 @@ export default defineConfig({
 					],
 				},
 				{
-					label: 'Package Repo',
+					label: 'OPMS Repo',
 					items: [
 						{ label: 'Official', link: '/repo/official/' },
 						{ label: 'Community', link: '/repo/community/' },
