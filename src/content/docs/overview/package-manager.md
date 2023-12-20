@@ -16,7 +16,9 @@ The name of an Osiris package is determined by the name of the Github repository
 
 `Owner Name`/`Repo Name`
 
-For example. 
+
+For example.
+
 If an Osiris package is stored on the Github repository `bastet`, and the repository is owned by the organization/account `The-Duat`, then the package name would be `the-duat/bastet`. Remember, package names are not case sensitive.
 
 Because of this approach, anybody has the ability to package their software for the NILE and make it readily available to anyone. If you are interested in creating an Osiris package for the NILE, please follow [this guide](www.google.com).
@@ -26,11 +28,11 @@ Because of this approach, anybody has the ability to package their software for 
 
 A package manager that can automatically install software from anybody poses some security threats. Luckily, the Duat has provided a relatively safe system that minimizes any risk.
 
-Located on this website is an **Official** package list, and a **Community** package list. The Official package list is a list of packages that are made and provided directly by the Duat. The Community package list contains community-made packages which have been deemed safe to install. By default, OPMS can only install packages which are present in the Duat's official package list. 
+Located on this website is an **Official** package list, and a **Community** package list. The Official package list is a list of packages that are made and provided directly by the Duat. The Community package list contains community-made packages which have been deemed safe to install. By default, OPMS can only install packages which are present in the Duat's official package list. You can broaden the freedom of OPMS by changing the OPMS security type.
 
-There are 3 different OPMS security 
+There are 3 different OPMS security types which dictate which packages you can install. The 3 security types are as follows:
+- `strict` - Can only install packages found in the Duat's official package list.
+- `moderate` - Can only install packages found in the Duat's official package list, as well as the Duat's community package list.
+- `none` - Can install packages from any Github repository in existence.
 
-
-
-
-To change your security type with the miz frontend, the command is `miz config pkgsec <security type>`. By default, the security type is set to strict.
+To change your security type with the river frontend, the command is `river config opmssec <security type>`. By default, the security type is set to `strict`.
