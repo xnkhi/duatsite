@@ -16,7 +16,7 @@ export default defineConfig({
 			},
 			favicon: '/eye.png',
 			social: {
-				github: 'https://github.com/the-duat/mizos',
+				github: 'https://github.com/the-duat/nile',
 				discord: 'https://discord.gg/AVSuRZsTXp',
 			},
 			sidebar: [
@@ -32,20 +32,19 @@ export default defineConfig({
 				{
 					label: 'Installing the NILE',
 					items: [
-						{ label: 'The Hijack Method', link: '/install/the-hijack-method/' },
-						{ label: 'Live ISO', link: '/install/live-iso/' },
+						{ label: 'Installation Script', link: '/install/install-script/' },
 					],
 				},
 				{
 					label: 'River Frontend',
 					items: [
-						{ label: 'The Basics', link: '/miz/basics/' },
-						{ label: 'System Info', link: '/miz/displayinfo/' },
-						{ label: 'System Configuration', link: '/miz/configuration/' },
-						{ label: 'Init Systems', link: '/miz/initsystems/' },
-						{ label: 'Graphics Card Control', link: '/miz/gpumanagement/' },
-						{ label: 'Software Management', link: '/miz/software/' },
-						{ label: 'System Updates', link: '/miz/updates/' },
+						{ label: 'The Basics', link: '/river/basics/' },
+						{ label: 'System Info', link: '/river/displayinfo/' },
+						{ label: 'System Configuration', link: '/river/configuration/' },
+						{ label: 'Init Systems', link: '/river/initsystems/' },
+						{ label: 'Graphics Card Control', link: '/river/gpumanagement/' },
+						{ label: 'Software Management', link: '/river/software/' },
+						{ label: 'System Updates', link: '/river/updates/' },
 					],
 				},
 				{

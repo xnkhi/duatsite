@@ -1,15 +1,17 @@
 ---
-title: Official mizOS Packages
-description: List of official mizOS packages provided by the Duat.
+title: Community Osiris Packages
+description: What Osiris packages have been provided by the community?
 ---
 
-Official mizOS packages are provided directly by the Duat, and can be installed with any security type.
+Osiris packages here have been made by the community, and have been deemed safe to install by the Duat.
+Community packages will not install with the `strict` OPMS security type set.
+To change your OPMS security type, refer to [here](https://github.com/the-duat.github.io/river/configuration).
 
 Install a package:
-- `miz fetch -m devName/repoName`
+- `river fetch devName/repoName`
 
 Remove a package:
-- `miz remove -m devName/repoName`
+- `river remove devName/repoName`
 
 You can use the search bar located at the top of this website to search for packages.
 

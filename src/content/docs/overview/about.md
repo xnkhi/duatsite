@@ -1,6 +1,6 @@
 ---
 title: About the NILE
-description: What is mizOS?
+description: What is the Nile Integrated Linux Environment?
 ---
 
 **The NILE is currently still in development. It is usable, but may contain bugs.**
@@ -9,31 +9,31 @@ description: What is mizOS?
 
 This is the Duat, the home and birthplace of the Nile Integrated Linux Environment (N.I.L.E.)
 
-The **Nile Integrated Linux Environment**, or NILE, is a system management framework designed with the intention of bringing simplicity and uniformity to the Arch Linux desktop.
+The **Nile Integrated Linux Environment**, or NILE, is a cross-platform system management framework providing a uniform frontend for a variety of Linux distributions.
 
-This is done through a series of programs, scripts, configurations, and tweaks collectively known as the **Nile River**. The Nile River provides a sort of wrapper that facilitates actions between the User and the underlying Arch Linux system, which provides a uniform operating system no matter the base system the NILE is installed onto. There are multiple frontends you can use to interact with the Nile River, the most up-to-date being the Duat's own frontend, simply called **River**.
+This is done through a series of programs, scripts, configurations, and tweaks collectively known as the **Nile River**. The Nile River provides a sort of wrapper that facilitates actions between the User and the underlying Linux system, providing a uniform operating system and user experience no matter the base distribution the NILE is installed onto. There are multiple frontends you can use to interact with the Nile River, the most up-to-date being the Duat's own frontend, simply called **River**.
 
-Because of its design, nearly every Arch Linux based distribution can be converted into a NILE system, although, it is best supported on vanilla Arch Linux. Some functions provided by the Nile River, such as its service management tools, will work on systems using the Runit or OpenRC init systems. However, other capabilities, such as dual-GPU management, are locked to systemd. Because of this design, an Arch+NILE system will look, function, and feel almost identical to a Manjaro+NILE system or an EndeavorOS+NILE system. The NILE allows you to have a uniform user experience throughout, while forgetting about the underlying software making up the base Linux distribution.
+Because of its design, nearly every (supported) Linux distribution can be converted into a NILE system. An Arch+NILE system will look, function, and feel almost identical to an Ubuntu+NILE system or an EndeavorOS+NILE system. The NILE allows you to have a uniform user experience throughout, while not concerning yourself with the underlying software making up the base Linux distribution.
 
 
 ## What the NILE IS
 
-- A wrapper for Arch Linux distributions, facilitating actions between the User and the underlying Arch Linux system.
+- A wrapper for various Linux distributions, facilitating actions between the User and the underlying Linux system.
 
-- A platform, in which each instance of the NILE will be more or less the same as any other, no matter the underlying system.
+- A system management framework, providing a consistent and clear user interface to the underlying system.
+
+- A platform, in which each instance of the NILE will be more or less the same as any other, no matter the base distribution.
 
 
 ## What the NILE ISN'T
 
-- A fully complete, seperate, standalone Linux distribution. While the NILE is considered by many to be an Arch-derived Linux distribution, this is factually incorrect. Your Linux distribution is "whatever base distribution you have installed + the NILE". Not just "The NILE".
-
-- A fork of Arch Linux.
+- A fully complete, seperate, standalone Linux distribution. While the NILE is sometimes referred to as a Linux distribution, this is factually incorrect. Your Linux distribution is "whatever base distribution you have installed + the NILE". Not just "The NILE".
 
 - A Desktop Environment.
 
 - An i3 rice.
 
-- A "Do It Yourself" distribution (or a distribution at all). Other than the various configurations provided, the NILE is meant to be used relatively as-is. If you want a fully customizable system, install vanilla Arch Linux.
+- A "Do It Yourself" distribution (or even a distribution at all). Other than the various configurations provided, a NILE system is meant to be used relatively as-is. If you want a fully customizable system, install something like Gentoo or Arch Linux.
 
 
 ## Other
