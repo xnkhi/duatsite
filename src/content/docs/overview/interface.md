@@ -3,7 +3,7 @@ title: User Interface
 description: How do I use the user interface?
 ---
 
-The Nile Integrated Linux Environmrnt ships with **i3** - an extremely fast/lightweight user interface. The NILE is tightly integrated into i3, allowing the User to interact with it in ways never seen before.
+The Nile Integrated Linux Environmrnt ships with a preconfigured installation of the **i3 Window Manager** - an extremely fast/lightweight user interface. The NILE is tightly integrated into i3, allowing the User to interact with it in ways never seen before.
 
 Rather than being a "point and click" user interface, i3 is keyboard-oriented, meaning you mainly navigate it by using a set of keyboard shortcuts.
 

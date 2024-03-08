@@ -5,7 +5,7 @@ description: How does the Osiris Package Manaement System work?
 
 Bundled with the Nile River comes the **Osiris Package Management System**, or **OPMS**.
 
-OPMS is a versatile package manager meant for NILE add-ons, small programs, scripts, general utilities and programs. OPMS is designed to cooperate with the system's native package manager, ensuring compatability between the two.
+OPMS is a lightweight package manager meant for NILE plugins, themes, and frontends.
 
 
 ## How it works
@@ -19,7 +19,7 @@ The name of an Osiris package is determined by the name of the Github repository
 
 For example.
 
-If an Osiris package is stored on the Github repository `bastet`, and the repository is owned by the organization/account `Mizosu97`, then the package name would be `mizosu97/bastet`. Remember, package names are not case sensitive.
+If an Osiris package is stored on the Github repository `Nile-Light-Theme`, and the repository is owned by the organization/account `The-Duat`, then the package name would be `The-Dust/Nile-Light-Theme`. Remember, package names are not case sensitive.
 
 Because of this approach, anybody has the ability to package their software for NILE systems and make it readily available to anyone. If you are interested in creating an Osiris package for the NILE, please follow [this guide](www.google.com).
 
