@@ -7,37 +7,34 @@ description: What is the Nile Integrated Linux Environment?
 **This site, and the system itself, are currently in the process of going through a rebrand. Expect inconsistencies.**
 
 
-This is the Duat, the home and birthplace of the Nile Integrated Linux Environment (N.I.L.E.)
+The Nile Integrated Linux Environment, or NILE, is a system management framework for Linux-based operating systems that allows you to easily use any Linux distribution without knowing the ins and outs of the system's distribution-specific software.
 
-The **Nile Integrated Linux Environment**, or NILE, is a cross-platform system management framework providing a uniform frontend for a variety of Linux distributions.
-
-This is done through a series of programs, scripts, configurations, and tweaks collectively known as the **Nile River**. The Nile River provides a sort of wrapper that facilitates actions between the User and the underlying Linux system, providing a uniform operating system and user experience no matter the base distribution the NILE is installed onto. There are multiple frontends you can use to interact with the Nile River, the most up-to-date being the Duat's own frontend, simply called **River**.
-
-Because of its design, nearly every (supported) Linux distribution can be converted into a NILE system. An Arch+NILE system will look, function, and feel almost identical to an Ubuntu+NILE system or an EndeavorOS+NILE system. The NILE allows you to have a uniform user experience throughout, while not concerning yourself with the underlying software making up the base Linux distribution.
+The Nile Integrated Linux Environment manages to do this by providing a set of tools that act as a wrapper for the underlying Linux distribution. Rather than needing to learn how to use multiple package managers or multiple init systems to use different distributions, you can simply learn the tools provided by the NILE. The NILE provides a simple and clear user interface that is consistent across different Linux systems.
 
 
-## What the NILE IS
+## Features
 
-- A wrapper for various Linux distributions, facilitating actions between the User and the underlying Linux system.
+- A pre-configured i3 Window Manager installation.
 
-- A system management framework, providing a consistent and clear user interface to the underlying system.
+- Tools for displaying system information.
 
-- A platform, in which each instance of the NILE will be more or less the same as any other, no matter the base distribution.
+- System configuration utilities.
+
+- Init system management tools.
+
+- A software management utility.
+
+- Plugins, Themes, and a package manager to install them.
+
+- A predefined set of desktop applications, such as a file manager and web browser.
+
+- More to come.
 
 
-## What the NILE ISN'T
+## Use Cases
 
-- A fully complete, seperate, standalone Linux distribution. While the NILE is sometimes referred to as a Linux distribution, this is factually incorrect. Your Linux distribution is "whatever base distribution you have installed + the NILE". Not just "The NILE".
+- If you use multiple Linux distributions frequently, the NILE can eliminate the hassle that comes with needing to manage multiple systems.
 
-- A Desktop Environment.
+- A distrohopper can use the NILE to alleviate the discomfort caused by learning a completely different system every week.
 
-- An i3 rice.
-
-- A "Do It Yourself" distribution (or even a distribution at all). Other than the various configurations provided, a NILE system is meant to be used relatively as-is. If you want a fully customizable system, install something like Gentoo or Arch Linux.
-
-
-## Other
-
-If you are on mobile, please use the hamburger menu at the top right of your screen to navigate around the site. If you are on desktop, use the panel on the left of your screen.
-
-*Psst! If you want to chat, please join our [Discord server](https://discord.gg/AVSuRZsTXp)!*
+- If you are new to Linux-based operating systems, the NILE can enable you to use the more "advanced" distributions without getting into the nitty-gritty.
