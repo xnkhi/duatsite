@@ -52,31 +52,26 @@ The `river` frontend provides a centralized configuration hub - allowing the sys
 
 ## GTK
 
-- `river config gtk-theme <theme_name>` - Changes your GTK theme to the specified theme.
+- `river config gtk-theme <gtk_theme_name>` - Changes your GTK theme to the specified theme.
 
-- `river config icon-theme <theme_name>` - Changes your icon theme to the specified theme.
+- `river config icon-theme <gtk_theme_name>` - Changes your icon theme to the specified theme.
 
-- `river config cursor-theme <theme_name>` - Changes your cursor theme to the specified theme. (May require a reboot)
+- `river config cursor-theme <gtk_theme_name>` - Changes your cursor theme to the specified theme. (May require a reboot)
 
 
-## Backups and Restores
+## NILE Themes
 
-`river` provides a way to easily backup and restore your system configurations.
+A fully and easily configurable user interface wouldn't be complete without theme support. Themes for the Nile Integrated Linux Environment consist of the following:
 
-**Warning: Backing up a program's configuration will remove previous backups of said program's configurations. Similarly, restoring a backed up configuration will remove your currently active configuration. Configuration backups are located at `/var/NileRiver/backup/$USER`**
+- i3 Settings
+- GTK Settings
+- Alacritty Settings
+- A Wallpaper
 
-*As an added note, all currently active configurations will be automatically backed up during a system update.*
+Theme management commands:
 
-- `river backup <program_name>` - Back up the current configurations for program\_name.
+- `river info themes` - To see all installed themes.
 
-- `river restore <program_name>` - Restore previously backed up configurations for program\_name.
+- `river config theme <theme_name>` - Switches your current theme to the given theme. Current settings will be lost.
 
-Valid program names:
-- `alacritty`
-- `fish`
-- `gtk`
-- `i3`
-- `picom`
-- `wallpaper`
-
-If no program name is given, the NILE will backup/restore configurations for all supported programs.
+- `river theme compile` - A fun command. This will automatically compile all of your current settings into a brand new theme!
