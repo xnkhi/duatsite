@@ -15,22 +15,44 @@ hero:
       link: https://github.com/the-duat/mizos
       icon: external
 ---
+import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
 
-import { Card, CardGrid } from '@astrojs/starlight/components';
-
-## Features
+## Quick Info
 
 <CardGrid stagger>
 	<Card title="Open source freedom" icon="pencil">
 		Free to use, free to modify, and free to share. The NILE is licensed under version 3 of the GNU General Public License.
 	</Card>
-	<Card title="Unmatched balance" icon="add-document">
-		The NILE blurs the line between fast-but-difficult systems, and easy-but-clunky systems.
+	<Card title="Unrivaled uniformity" icon="bars">
+		With the Nile Integrated Linux Environment, tasks stay consistent and uniform across all Linux distributions.
 	</Card>
-	<Card title="Unrivaled uniformity" icon="setting">
-		With the power of the Nile River, tasks stay consistent and uniform.
+	<Card title="Easy to use" icon="puzzle">
+		The NILE allows you to easily operate any Linux system without knowing the ins and outs of that specific distribution.
 	</Card>
-	<Card title="Beautiful interface" icon="open-book">
-		The cleanest out-of-the-box user interface in the market.
+	<Card title="Extensive documentation" icon="open-book">
+		Every feature provided by the system management framework is documented in a clear, readable, and understandable way.
 	</Card>
 </CardGrid>
+
+## Quick Links
+
+<LinkCard
+  title="Overview"
+  description="Get to know the basics regarding the Nile Integrated Linux Environment."
+  href="/guides/customization/"
+/>
+<LinkCard
+  title="Installation"
+  description="How do I install the Nile Integrated Linux Environment?"
+  href="/guides/customization/"
+/>
+<LinkCard
+  title="River Frontend"
+  description="Learn how to take control of your Linux system using the River frontend."
+  href="/guides/customization/"
+/>
+<LinkCard
+  title="Package Repository"
+  description="Want to install additional Themes, Frontends, or Plugins for the NILE? Check out our package repository."
+  href="/guides/customization/"
+/>
