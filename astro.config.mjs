@@ -42,7 +42,6 @@ export default defineConfig({
 						{ label: 'System Info', link: '/river/displayinfo/' },
 						{ label: 'System Configuration', link: '/river/configuration/' },
 						{ label: 'Init Systems', link: '/river/initsystems/' },
-						{ label: 'Graphics Card Control', link: '/river/gpumanagement/' },
 						{ label: 'Software Management', link: '/river/software/' },
 						{ label: 'System Updates', link: '/river/updates/' },
 					],

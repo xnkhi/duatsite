@@ -9,7 +9,7 @@ Easily update your system through the `river` frontend.
 
 - `river update` - Updates your system, as well as the NILE.
 
-- `river update dev` - Same as `miz update`, except it updates to the lastest developer edition. This is used solely for development purposes, and may break your system.
+- `river update dev` - Same as `river update`, except it updates to the lastest developer edition. This is used solely for development purposes, and may break your system.
 
 Updating your system through the Nile River is preferred over updating through your native package manager, as your native package manager does not update NILE components along with the rest of your system.
 
