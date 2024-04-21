@@ -16,7 +16,13 @@ Below is a list of all available commands for viewing system information:
 
 - `river info duatrepo` - Lists all Osiris packages on the Duat's package repository.
 
-- `river info i3settings` - Displays all current i3 settings.
+- `river info i3settings` - Displays all current settings for i3, the system's window manager.
 
-- `river info gtksettings` - Displays all current GTK settings.
+- `river info alacrittysettings` - Displays all current settings for Alacritty, the system's default terminal emulator.
+
+- `river info gtksettings` - Displays all current settings for the systems GTK configuration.
+
+- `river info themes` - Displays the names of all installed NILE themes.
+
+- `river info <theme_name>` - Displays all settings pertaining to the given NILE theme.
 
