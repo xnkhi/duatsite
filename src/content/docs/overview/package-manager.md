@@ -19,7 +19,7 @@ The name of an Osiris package is determined by the name of the Github repository
 
 For example.
 
-If an Osiris package is stored on the Github repository `Nile-Light-Theme`, and the repository is owned by the organization/account `The-Duat`, then the package name would be `The-Dust/Nile-Light-Theme`. Remember, package names are not case sensitive.
+If an Osiris package is stored on the Github repository `Nile-Light-Theme`, and the repository is owned by the organization/account `The-Duat`, then the package name would be `The-Duat/Nile-Light-Theme`. Remember, package names are not case sensitive.
 
 Because of this approach, anybody has the ability to package their software for NILE systems and make it readily available to anyone. If you are interested in creating an Osiris package for the NILE, please follow [this guide](www.google.com).
 

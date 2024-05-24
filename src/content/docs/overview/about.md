@@ -17,7 +17,7 @@ The Nile Integrated Linux Environment consists of three main parts:
 
 - Various **lua modules** which do the actual "wrapping" of the system's native utilities.
 
-- **river**, a CLI lua program used by the user to manage their system.
+- **river**, a lua CLI frontend program used by the user to manage their system.
 
 
 ## Key Features
