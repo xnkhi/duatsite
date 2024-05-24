@@ -3,40 +3,46 @@ title: About the NILE
 description: What is the Nile Integrated Linux Environment?
 ---
 
-**The NILE is currently still in development. It is usable, but may contain bugs.**
-**This site, and the system itself, are currently in the process of going through a rebrand. Expect inconsistencies.**
+**The NILE is currently still in development. It is usable (to an extent lol), but may contain bugs. Use in a virtual machine only, bugs may break your system. Development still needs to finish and extensive testing still needs to be conducted.**
 
 
-The **Nile Integrated Linux Environment**, or **N.I.L.E.**, is a system management framework for Linux-based operating systems that allows you to easily use any Linux distribution without knowing the ins and outs of the system's distribution-specific software.
-
-The Nile Integrated Linux Environment manages to do this by providing a set of tools that act as a wrapper for the underlying Linux distribution. Rather than needing to learn how to use multiple package managers or multiple init systems to use different distributions, you can simply learn the tools provided by the NILE. The NILE provides a simple and clear user interface that is consistent across different Linux systems.
-
-All of the NILE's behind-the-scenes stuff is located in the directory `/var/NileRiver`. The programs and files found this directory are collectively known as the **Nile River**, and make up the backbone of a NILE system. In order to interact with the Nile River, you need a frontend program. Luckily, the NILE ships with it's own command-line frontend called `river`. `river` will be the tool you use the most to manage your NILE system.
+The **Nile Integrated Linux Environment**, or **N.I.L.E.**, is a system management framework designed for Linux-based operating systems. The primary goal of the NILE is to simplify the Linux ecosystem by nullifying the differences between various Linux distributions. This is achieved by providing an interface which acts as a wrapper for the system's native utilities.
 
 
-## Features
+## Its Contents
 
-- A pre-configured i3 Window Manager installation.
+The Nile Integrated Linux Environment consists of three main parts:
 
-- Tools for displaying system information.
+- A preconfigured installation of the **i3 window manager**, providing a consistent desktop interface across different Linux distributions.
 
-- System configuration utilities.
+- Various **lua modules** which do the actual "wrapping" of the system's native utilities.
 
-- Init system management tools.
-
-- A software management utility.
-
-- Plugins, UI Themes, and a package manager to install them.
-
-- A predefined set of desktop applications, such as a file manager and web browser.
-
-- More to come.
+- **river**, a CLI lua program used by the user to manage their system.
 
 
-## Use Cases
+## Key Features
 
-- If you use multiple Linux distributions frequently, the NILE can eliminate the hassle that comes with needing to manage multiple systems.
+1. **Consistent User Interface:** The environment provides a simple and clear user interface that remains consistent regardless of the Linux distribution being used.
 
-- A distrohopper can use the NILE to alleviate the discomfort caused by learning a completely different system every week.
+2. **Software Management:** The NILE wraps around the system's default package manager to standardize the commands between apt, pacman, xbps, and more.
 
-- If you are new to Linux-based operating systems, the NILE can enable you to use the more "advanced" distributions without getting into the nitty-gritty.
+3. **Init System Management:** The NILE also wraps around the tools used to control the distribution's init system. Supports systemd, openrc, and runit.
+
+4. **Network Management:** NetworkManager or IWCTL? It doesn't matter, connect to the internet through river.
+
+5. **Configurability:** Configure the visual and internal aspects of your system through river. Compile all visual settings into a NILE theme with just one command.
+
+6. **Plugins:** Is the NILE missing a feature? Plugin support allows users to make their own niche additions without contributing to the main repository.
+
+7. **A Package Manager??:** Install new themes, frontends, and plugins with the **Osiris Package Management System**; a decentralized, home-baked package manager made just for the NILE.
+
+
+## Contributing
+An actual guide will be written here when the NILE reaches a stable point in development\*. Until then, just send a pull request.
+
+\* There's literally one person working on this thing. Don't expect this to happen anytime soon.
+
+
+## Demonstrations
+
+Some cool videos will be added here eventually. Keep refreshing the webpage until eternity.
