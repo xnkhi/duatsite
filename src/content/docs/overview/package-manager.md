@@ -3,7 +3,7 @@ title: The Package Manager
 description: How does the Osiris Package Manaement System work?
 ---
 
-Bundled with the Nile River comes the **Osiris Package Management System**, or **OPMS**.
+Bundled with the Nile Integrated Linux Environment comes the **Osiris Package Management System**, or **OPMS**.
 
 OPMS is a lightweight package manager meant for NILE plugins, themes, and frontends.
 
