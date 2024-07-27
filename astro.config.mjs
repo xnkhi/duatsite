@@ -6,7 +6,7 @@ export default defineConfig({
 	site: 'https://the-duat.github.io',
 	integrations: [
 		starlight({
-			title: 'The Duat',
+			title: 'The N.I.L.E.',
 			customCss: [
 				// Relative path to your custom CSS file
 				'./src/styles/cat.css',
