@@ -6,7 +6,7 @@ export default defineConfig({
 	site: 'https://Mizosu97.github.io',
 	integrations: [
 		starlight({
-			title: 'The N.I.L.E.',
+			title: 'The Duat',
 			customCss: [
 				// Relative path to your custom CSS file
 				'./src/styles/cat.css',
@@ -16,21 +16,11 @@ export default defineConfig({
 			},
 			favicon: '/eye.png',
 			social: {
-				github: 'https://github.com/the-duat/nile',
-				discord: 'https://discord.gg/AVSuRZsTXp',
+				github: 'https://github.com/mizosu97/',
 			},
 			sidebar: [
 				{
-					label: 'Overview',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'About the NILE', link: '/overview/about/' },
-						{ label: 'User Interface', link: '/overview/interface/' },
-						{ label: 'The Package Manager', link: '/overview/package-manager/' },
-					],
-				},
-				{
-					label: 'Installing the NILE',
+					label: 'Lua Software',
 					items: [
 						{ label: 'Installation Script', link: '/install/install-script/' },
 					],
@@ -44,14 +34,6 @@ export default defineConfig({
 						{ label: 'Init Systems', link: '/river/initsystems/' },
 						{ label: 'Software Management', link: '/river/software/' },
 						{ label: 'System Updates', link: '/river/updates/' },
-					],
-				},
-				{
-					label: 'OPMS Repo',
-					items: [
-						{ label: 'Official', link: '/repo/official/' },
-						{ label: 'Community', link: '/repo/community/' },
-						{ label: 'Submitting a Package', link: '/repo/submit/' }
 					],
 				},
 			],
