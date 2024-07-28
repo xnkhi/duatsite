@@ -3,7 +3,7 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://mizosu97.github.io',
+	site: 'https://Mizosu97.github.io',
 	integrations: [
 		starlight({
 			title: 'The N.I.L.E.',
