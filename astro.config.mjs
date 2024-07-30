@@ -20,6 +20,12 @@ export default defineConfig({
 			},
 			sidebar: [
 				{
+					label: 'Overview',
+					items: [
+						{ label: 'About', link: '/overview/about/' },
+					],
+				},
+				{
 					label: 'Lua Software',
 					items: [
 						{ label: 'About', link: '/luasoftware/about/' },
