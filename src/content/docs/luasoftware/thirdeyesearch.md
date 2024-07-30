@@ -53,7 +53,7 @@ Where `<number>` corresponds to the number next to the displayed listing.
 
 Once inside a category, you should see a screen similar to this:
 
-![Main Menu](https://media.discordapp.net/attachments/1267674014290149449/1267674096846503990/wenO9qU.png?ex=66a9a500&is=66a85380&hm=d6dc080475521176d9a8c860ce43479f5e1631458c4892c374074a9d507c8b32&=&format=webp&quality=lossless)
+![Main Menu](https://media.discordapp.net/attachments/1267674014290149449/1267674097232515136/DkLUGxn.png?ex=66aa4dc1&is=66a8fc41&hm=146bc4d0c7d53bea8dad0025de5f597738d69fb4cdfedf97996781bbed8fa26f&=&format=webp&quality=lossless)
 
 You can use the Left and Right arrow keys to scroll through the category's contents.
 
