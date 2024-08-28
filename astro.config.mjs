@@ -43,27 +43,16 @@ export default defineConfig({
 					],
 				},
 				{
-					label: 'Roblox Commissions',
+					label: 'Roblox',
 					items: [
-						{ label: 'About', link: '/robloxcommissions/about/' },
-						{ label: 'Donation Depot', link: '/robloxcommissions/donationdepot/' },
-					],
-				},
-				{
-					label: 'Roblox Games',
-					items: [
-						{ label: 'About', link: '/robloxgames/about/' },
-						{ label: 'Pharaohs Landing', link: '/robloxgames/pharaohslanding/' },
-						{ label: 'Prison', link: '/robloxgames/prison/' },
-					],
-				},
-				{
-					label: 'Roblox Prototypes',
-					items: [
-						{ label: 'About', link: '/robloxprototypes/about/' },
-						{ label: 'RayBlox', link: '/robloxprototypes/rayblox/' },
-						{ label: 'Spelunky Generation', link: '/robloxprototypes/spelunkygen/' },
-						{ label: 'Tank Game', link: '/robloxprototypes/tankgame/' },
+						{ label: 'About', link: '/roblox/about/' },
+						{ label: 'Pharaohs Landing', link: '/roblox/pharaohslanding/' },
+						{ label: 'Prison', link: '/roblox/prison/' },
+						{ label: 'Donation Depot', link: '/roblox/donationdepot/' }
+						{ label: 'About', link: '/roblox/about/' },
+						{ label: 'RayBlox', link: '/roblox/rayblox/' },
+						{ label: 'Spelunky Generation', link: '/roblox/spelunkygen/' },
+						{ label: 'Tank Game', link: '/roblox/tankgame/' },
 					],
 				},
 			],
