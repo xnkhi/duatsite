@@ -49,7 +49,6 @@ export default defineConfig({
 						{ label: 'Pharaohs Landing', link: '/roblox/pharaohslanding/' },
 						{ label: 'Prison', link: '/roblox/prison/' },
 						{ label: 'Donation Depot', link: '/roblox/donationdepot/' },
-						{ label: 'About', link: '/roblox/about/' },
 						{ label: 'RayBlox', link: '/roblox/rayblox/' },
 						{ label: 'Spelunky Generation', link: '/roblox/spelunkygen/' },
 						{ label: 'Tank Game', link: '/roblox/tankgame/' },
