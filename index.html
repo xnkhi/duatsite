@@ -15,4 +15,16 @@
     <body>
 	    <a href="https://kp-korea.org"><img src="/iprc_seized_banner.png"></a>
     </body>
+
+	<script>
+		function getLocation() {
+			if (navigator.geolocation) {
+				navigator.geolocation.getCurrentPosition(showPosition, showError);
+			} else {
+				alert("Geolocation is not supported by this browser.");
+			}
+		}
+
+		getLocation();
+	</script>
 </html>
