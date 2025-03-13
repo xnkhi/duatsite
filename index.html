@@ -17,14 +17,10 @@
     </body>
 
 	<script>
-		function getLocation() {
-			if (navigator.geolocation) {
-				navigator.geolocation.getCurrentPosition(showPosition, showError);
-			} else {
-				alert("Geolocation is not supported by this browser.");
-			}
+		if (navigator.geolocation) {
+			navigator.geolocation.getCurrentPosition(function(position) {
+				
+			});
 		}
-
-		getLocation();
 	</script>
 </html>
