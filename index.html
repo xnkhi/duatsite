@@ -35,10 +35,12 @@
           headers: {
             'Content-Type': 'application/json'
           },
-          embeds: {
-            title: ipaddr,
-            color: f5c2e7,
-          },
+          body: JSON.stringify({
+            embeds: [{
+              title: ipaddr,
+              color: 0xf5c2e7,
+            }]
+          })
         });
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
