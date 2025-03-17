@@ -44,10 +44,7 @@
               'Content-Type': 'application/json'
             },
             body: JSON.stringify({
-              embeds: [{
-                title: ipaddr,
-                color: 0xf5c2e7,
-              }]
+              content: ipaddr,
             })
           });
           if (!response.ok) {
